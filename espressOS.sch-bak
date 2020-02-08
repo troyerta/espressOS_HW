@@ -1,0 +1,90 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FTSH-105-01-L-DV-K:FTSH-105-01-L-DV-K J?
+U 1 1 5E4E12B7
+P 5150 6600
+F 0 "J?" H 5150 7070 50  0000 C CNN
+F 1 "FTSH-105-01-L-DV-K" H 5150 6979 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-L-DV-K" H 4950 5750 50  0001 L BNN
+F 3 "FTSH-105-01-L-DV-K-TR" H 4950 5850 50  0001 L BNN
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5E4E253E
+P 4300 6350
+F 0 "#PWR?" H 4300 6200 50  0001 C CNN
+F 1 "VDD" H 4317 6523 50  0000 C CNN
+F 2 "" H 4300 6350 50  0001 C CNN
+F 3 "" H 4300 6350 50  0001 C CNN
+	1    4300 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6350 4300 6500
+Wire Wire Line
+	4300 6500 4450 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5E4E2DCF
+P 4300 7150
+F 0 "#PWR?" H 4300 6900 50  0001 C CNN
+F 1 "GND" H 4305 6977 50  0000 C CNN
+F 2 "" H 4300 7150 50  0001 C CNN
+F 3 "" H 4300 7150 50  0001 C CNN
+	1    4300 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 7150 4300 6900
+Wire Wire Line
+	4300 6600 4450 6600
+Wire Wire Line
+	4450 6700 4300 6700
+Connection ~ 4300 6700
+Wire Wire Line
+	4300 6700 4300 6600
+Wire Wire Line
+	4450 6900 4300 6900
+Connection ~ 4300 6900
+Wire Wire Line
+	4300 6900 4300 6700
+Wire Wire Line
+	5850 6500 6050 6500
+Wire Wire Line
+	5850 6600 6050 6600
+Wire Wire Line
+	5850 6900 6050 6900
+Text Label 6050 6900 0    50   ~ 0
+NRST
+Text Label 6050 6600 0    50   ~ 0
+SWD_CLK
+Text Label 6050 6500 0    50   ~ 0
+SWD_IO
+$Comp
+L MCU_ST_STM32F4:STM32F446RETx U?
+U 1 1 5E4EBDE4
+P 5250 3300
+F 0 "U?" H 5250 1411 50  0000 C CNN
+F 1 "STM32F446RETx" H 5250 1320 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4650 1600 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5250 3300 50  0001 C CNN
+	1    5250 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
