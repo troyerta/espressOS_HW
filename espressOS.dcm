@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMT01
+D 0.5C Accurate 2-Pin Digital Output Temperature Sensor With Pulse Count Interface
+F http://www.ti.com/lit/ds/symlink/lmt01.pdf
+$ENDCMP
+#
+#End Doc Library

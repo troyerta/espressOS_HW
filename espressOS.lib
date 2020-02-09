@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LMT01
+#
+DEF LMT01 U 0 40 Y Y 1 F N
+F0 "U" 150 -50 50 H V C CNN
+F1 "LMT01" 100 50 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -250 -100 250 100 0 1 0 f
+X VP 1 -350 50 100 R 50 50 1 1 B
+X VN 2 -350 -50 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
