@@ -881,4 +881,16 @@ Wire Wire Line
 	5950 3100 6250 3100
 Text Label 6250 3100 0    50   ~ 0
 SWD_IO
+Wire Wire Line
+	5950 3000 6250 3000
+Text Label 6250 3000 0    50   ~ 0
+LMT01_1_CTRL
+Wire Wire Line
+	5950 4300 6250 4300
+Wire Wire Line
+	5950 4400 6250 4400
+Text Label 6250 4300 0    50   ~ 0
+LMT01_2_CTRL
+Text Label 6250 4400 0    50   ~ 0
+LMT01_3_CTRL
 $EndSCHEMATC
